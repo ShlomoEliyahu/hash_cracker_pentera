@@ -1,0 +1,9 @@
+INFO 2025-04-29 22:19:41,589 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO 2025-04-29 22:19:41,589 [33mPress CTRL+C to quit[0m
+INFO 2025-04-29 22:20:37,816 [NOT FOUND] Hash 780f0242bc235bbd15c5d2ec45cfba45 in range 500000000-533333334
+INFO 2025-04-29 22:20:37,817 127.0.0.1 - - [29/Apr/2025 22:20:37] "POST /crack HTTP/1.1" 200 -
+INFO 2025-04-29 22:21:29,135 [FOUND] Hash 54450d1a24ff11ca940ca7b44526748b => 0525381648
+INFO 2025-04-29 22:21:29,135 127.0.0.1 - - [29/Apr/2025 22:21:29] "POST /crack HTTP/1.1" 200 -
+INFO 2025-04-29 22:21:47,398 [FOUND] Hash 06aea034b6c8bedc0bed8c4601af45b3 => 0500000000
+INFO 2025-04-29 22:21:47,399 127.0.0.1 - - [29/Apr/2025 22:21:47] "POST /crack HTTP/1.1" 200 -
