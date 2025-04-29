@@ -1,52 +1,24 @@
-INFO 2025-04-29 22:19:50,635 Cracking hash: 780f0242bc235bbd15c5d2ec45cfba45
-INFO 2025-04-29 22:19:50,637 ending task to 127.0.0.1:5001 | Range: 500000000-533333334
-INFO 2025-04-29 22:19:50,640 ending task to 127.0.0.1:5002 | Range: 533333334-566666667
-INFO 2025-04-29 22:19:50,640 ending task to 127.0.0.1:5003 | Range: 566666667-600000000
-INFO 2025-04-29 22:20:38,071 [SUCCESS] Hash 780f0242bc235bbd15c5d2ec45cfba45 => 0544471197
-INFO 2025-04-29 22:20:38,071 [TIME] Elapsed: 47.44 seconds
-INFO 2025-04-29 22:20:38,071 Cracking hash: 54450d1a24ff11ca940ca7b44526748b
-INFO 2025-04-29 22:20:38,071 ending task to 127.0.0.1:5001 | Range: 500000000-533333334
-INFO 2025-04-29 22:20:38,072 ending task to 127.0.0.1:5002 | Range: 533333334-566666667
-INFO 2025-04-29 22:20:38,075 ending task to 127.0.0.1:5003 | Range: 566666667-600000000
-INFO 2025-04-29 22:21:47,392 [SUCCESS] Hash 54450d1a24ff11ca940ca7b44526748b => 0525381648
-INFO 2025-04-29 22:21:47,393 [TIME] Elapsed: 69.32 seconds
-INFO 2025-04-29 22:21:47,393 Cracking hash: 06aea034b6c8bedc0bed8c4601af45b3
-INFO 2025-04-29 22:21:47,393 ending task to 127.0.0.1:5001 | Range: 500000000-533333334
-INFO 2025-04-29 22:21:47,395 ending task to 127.0.0.1:5002 | Range: 533333334-566666667
-INFO 2025-04-29 22:21:47,395 ending task to 127.0.0.1:5003 | Range: 566666667-600000000
-ERROR 2025-04-29 22:22:10,356 Could not contact minion 127.0.0.1:5003 (attempt 1): ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
-INFO 2025-04-29 22:22:10,356 ending task to 127.0.0.1:5003 | Range: 566666667-600000000
-ERROR 2025-04-29 22:22:10,357 Could not contact minion 127.0.0.1:5002 (attempt 1): ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
-INFO 2025-04-29 22:22:10,357 ending task to 127.0.0.1:5002 | Range: 533333334-566666667
-ERROR 2025-04-29 22:22:12,395 Could not contact minion 127.0.0.1:5003 (attempt 2): HTTPConnectionPool(host='127.0.0.1', port=5003): Max retries exceeded with url: /crack (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B7951F1D60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-INFO 2025-04-29 22:22:12,395 ending task to 127.0.0.1:5003 | Range: 566666667-600000000
-ERROR 2025-04-29 22:22:12,395 Could not contact minion 127.0.0.1:5002 (attempt 2): HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /crack (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B7951F2150>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-INFO 2025-04-29 22:22:12,395 ending task to 127.0.0.1:5002 | Range: 533333334-566666667
-ERROR 2025-04-29 22:22:14,443 Could not contact minion 127.0.0.1:5002 (attempt 3): HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /crack (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B7951F34D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-ERROR 2025-04-29 22:22:14,458 Could not contact minion 127.0.0.1:5003 (attempt 3): HTTPConnectionPool(host='127.0.0.1', port=5003): Max retries exceeded with url: /crack (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B7951F3020>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-INFO 2025-04-29 22:22:14,459 [SUCCESS] Hash 06aea034b6c8bedc0bed8c4601af45b3 => 0500000000
-INFO 2025-04-29 22:22:14,459 [TIME] Elapsed: 27.07 seconds
-INFO 2025-04-29 22:22:14,459 Cracking hash: e4cdb3ac5f588f6fb50a51808b639b3f
-INFO 2025-04-29 22:22:14,460 ending task to 127.0.0.1:5001 | Range: 500000000-533333334
-INFO 2025-04-29 22:22:14,462 ending task to 127.0.0.1:5002 | Range: 533333334-566666667
-INFO 2025-04-29 22:22:14,465 ending task to 127.0.0.1:5003 | Range: 566666667-600000000
-ERROR 2025-04-29 22:22:16,503 Could not contact minion 127.0.0.1:5001 (attempt 1): HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /crack (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B795224230>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-ERROR 2025-04-29 22:22:16,503 Could not contact minion 127.0.0.1:5002 (attempt 1): HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /crack (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B7951C79E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-INFO 2025-04-29 22:22:16,503 ending task to 127.0.0.1:5001 | Range: 500000000-533333334
-INFO 2025-04-29 22:22:16,504 ending task to 127.0.0.1:5002 | Range: 533333334-566666667
-ERROR 2025-04-29 22:22:16,519 Could not contact minion 127.0.0.1:5003 (attempt 1): HTTPConnectionPool(host='127.0.0.1', port=5003): Max retries exceeded with url: /crack (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B7951F1D00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-INFO 2025-04-29 22:22:16,519 ending task to 127.0.0.1:5003 | Range: 566666667-600000000
-ERROR 2025-04-29 22:22:18,564 Could not contact minion 127.0.0.1:5002 (attempt 2): HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /crack (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B795225640>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-INFO 2025-04-29 22:22:18,565 ending task to 127.0.0.1:5002 | Range: 533333334-566666667
-ERROR 2025-04-29 22:22:18,579 Could not contact minion 127.0.0.1:5001 (attempt 2): HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /crack (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B795225AF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-ERROR 2025-04-29 22:22:18,579 Could not contact minion 127.0.0.1:5003 (attempt 2): HTTPConnectionPool(host='127.0.0.1', port=5003): Max retries exceeded with url: /crack (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B7952264E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-INFO 2025-04-29 22:22:18,580 ending task to 127.0.0.1:5001 | Range: 500000000-533333334
-INFO 2025-04-29 22:22:18,580 ending task to 127.0.0.1:5003 | Range: 566666667-600000000
-ERROR 2025-04-29 22:22:20,608 Could not contact minion 127.0.0.1:5002 (attempt 3): HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /crack (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B7951C6F00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-ERROR 2025-04-29 22:22:20,608 Something went wrong while running send_task function HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /crack (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B7951C6F00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-ERROR 2025-04-29 22:22:20,623 Could not contact minion 127.0.0.1:5001 (attempt 3): HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /crack (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B7952273B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-ERROR 2025-04-29 22:22:20,623 Something went wrong while running send_task function HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /crack (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B7952273B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-ERROR 2025-04-29 22:22:20,623 Could not contact minion 127.0.0.1:5003 (attempt 3): HTTPConnectionPool(host='127.0.0.1', port=5003): Max retries exceeded with url: /crack (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B7952277A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-ERROR 2025-04-29 22:22:20,623 Something went wrong while running send_task function HTTPConnectionPool(host='127.0.0.1', port=5003): Max retries exceeded with url: /crack (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B7952277A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
-INFO 2025-04-29 22:22:20,624 [FAILED] Could not crack hash e4cdb3ac5f588f6fb50a51808b639b3f
-INFO 2025-04-29 22:22:20,624 [TIME] Elapsed: 6.17 seconds
+INFO 2025-04-29 22:31:00,606 Cracking hash: 780f0242bc235bbd15c5d2ec45cfba45
+INFO 2025-04-29 22:31:00,608 ending task to 127.0.0.1:5001 | Range: 500000000-533333334
+INFO 2025-04-29 22:31:00,609 ending task to 127.0.0.1:5002 | Range: 533333334-566666667
+INFO 2025-04-29 22:31:00,610 ending task to 127.0.0.1:5003 | Range: 566666667-600000000
+INFO 2025-04-29 22:31:32,578 [SUCCESS] Hash 780f0242bc235bbd15c5d2ec45cfba45 => 0544471197
+INFO 2025-04-29 22:31:32,579 [TIME] Elapsed: 31.97 seconds
+INFO 2025-04-29 22:31:32,579 Cracking hash: 54450d1a24ff11ca940ca7b44526748b
+INFO 2025-04-29 22:31:32,579 ending task to 127.0.0.1:5001 | Range: 500000000-533333334
+INFO 2025-04-29 22:31:32,581 ending task to 127.0.0.1:5002 | Range: 533333334-566666667
+INFO 2025-04-29 22:31:32,582 ending task to 127.0.0.1:5003 | Range: 566666667-600000000
+INFO 2025-04-29 22:32:27,579 [SUCCESS] Hash 54450d1a24ff11ca940ca7b44526748b => 0525381648
+INFO 2025-04-29 22:32:27,579 [TIME] Elapsed: 55.00 seconds
+INFO 2025-04-29 22:32:27,579 Cracking hash: 06aea034b6c8bedc0bed8c4601af45b3
+INFO 2025-04-29 22:32:27,580 ending task to 127.0.0.1:5001 | Range: 500000000-533333334
+INFO 2025-04-29 22:32:27,580 ending task to 127.0.0.1:5002 | Range: 533333334-566666667
+INFO 2025-04-29 22:32:27,582 ending task to 127.0.0.1:5003 | Range: 566666667-600000000
+INFO 2025-04-29 22:33:16,819 [SUCCESS] Hash 06aea034b6c8bedc0bed8c4601af45b3 => 0500000000
+INFO 2025-04-29 22:33:16,819 [TIME] Elapsed: 49.24 seconds
+INFO 2025-04-29 22:33:16,820 Cracking hash: e4cdb3ac5f588f6fb50a51808b639b3f
+INFO 2025-04-29 22:33:16,820 ending task to 127.0.0.1:5001 | Range: 500000000-533333334
+INFO 2025-04-29 22:33:16,822 ending task to 127.0.0.1:5002 | Range: 533333334-566666667
+INFO 2025-04-29 22:33:16,822 ending task to 127.0.0.1:5003 | Range: 566666667-600000000
+INFO 2025-04-29 22:34:15,644 [FAILED] Could not crack hash e4cdb3ac5f588f6fb50a51808b639b3f
+INFO 2025-04-29 22:34:15,644 [TIME] Elapsed: 58.82 seconds
